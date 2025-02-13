@@ -1,0 +1,33 @@
+{
+  "name": "photo-app",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "compressorjs": "^1.2.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "nodemon": "^3.1.7",
+    "photo-app": "file:",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.28.0",
+    "zustand": "^5.0.1"
+  }
+}
